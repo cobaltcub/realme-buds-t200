@@ -13,7 +13,7 @@ notes and capture tooling I used to get there.
 | Battery (left / right / case) | `0x0106`, push `0x0204` | verified on T200 |
 | Firmware versions | `0x0105` | verified on T200 |
 | Touch gesture map | `0x0108` | verified on T200 |
-| btsnoop HCI decoder | — | tested on HCI captures |
+| btsnoop HCI decoder | — | tested with synthetic HCI logs |
 
 ## Quick start
 
