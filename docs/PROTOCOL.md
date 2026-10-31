@@ -12,8 +12,12 @@ usual `0xCATSUB` notation.
   uses `/dev/rfcomm0`.
 - No login, handshake, or account. The buds answer as soon as the SPP channel
   is open.
-- The buds hold one Classic connection at a time. Disconnect the phone (or the
-  laptop) before controlling from the other device.
+- Multipoint is supported: the buds can keep **two Classic connections active
+  at once**. On my unit, ANC and other control frames were accepted while both
+  the phone and the laptop were connected, so the earlier "disconnect the other
+  device first" note was wrong.
+- Audio routing/focus between the two devices is handled separately by the buds'
+  multipoint logic. It is independent of whether a control frame is accepted.
 
 ## Frame format
 

@@ -55,6 +55,14 @@ clear. The 165-byte settings reply was the first frame that exposed it.
   are safe.
 - If the buds stop responding, put them back in the case and reconnect.
 
+## Corrections
+
+- **2026-11-01 — multipoint.** The first version of `PROTOCOL.md` said the buds
+  hold one Classic connection at a time. That was wrong. They keep two active
+  Classic connections, and control frames (ANC and others) were accepted from
+  both the phone and the laptop. Audio routing is handled separately by the
+  buds' multipoint logic. The transport section has been corrected.
+
 ## Prior art
 
 - [funinkina/realme-t310-anc-controls](https://github.com/funinkina/realme-t310-anc-controls)
